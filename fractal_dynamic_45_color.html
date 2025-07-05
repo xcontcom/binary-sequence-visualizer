@@ -1,0 +1,30 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Fractal pattern</title>
+<style>
+body{
+	color: #000000;
+	background-color: #EEEEEE;
+}
+</style>
+<script type="text/javascript" src="fractal_dynamic_45_color.js"></script>
+</head>
+<body>
+<div class="fractal" id="myid">
+	k <input type="text" id="sqrt" value="1" /><br />
+	floor(n·n·√k) mod 2 <input type="checkbox" id="quadratic" name="quadratic" checked="true"/> ← n*n or n function.<br /><br />
+	<div>MouseX/MouseY is used as a discretization factor inside the floor function</div>
+	<div><h3><b>Click the mouse (on the canvas) to start the animation.</b><h3></div><br />
+	<div>
+		<canvas id="myCanvas"></canvas>
+	</div>
+</div>
+<div id="footer">
+	<div id="console-log0"></div><br />
+	<b><div>Github repo: <a href="https://github.com/xcontcom/billiard-fractals">https://github.com/xcontcom/billiard-fractals</a></div>
+	<div>The full article with explanation: <a href="https://github.com/xcontcom/billiard-fractals/blob/main/docs/article.md">https://github.com/xcontcom/billiard-fractals/blob/main/docs/article.md</a></div></b>
+</div>
+</body>
+</html>
