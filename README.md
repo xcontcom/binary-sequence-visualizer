@@ -1,7 +1,7 @@
 # Binary sequence visualizer
 Interactive binary fractal visualizer with dynamic HSL coloring and Node.js scripts to export GIF/MP4.
 
-(Online demo)[https://xcont.com/binarypattern/fractal_dynamic_45_color.html]
+[Online demo](https://xcont.com/binarypattern/fractal_dynamic_45_color.html)
 
 Based on [https://github.com/xcontcom/billiard-fractals](https://github.com/xcontcom/billiard-fractals)
 
